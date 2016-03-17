@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="lib/css/jquery.mobile-1.4.5.min.css">
+      
+      <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+
+      <link href="lib/slider/css/bootstrap.css" rel='stylesheet' type='text/css' />
+      
+     <!-- Custom Theme files -->
+      <link href="lib/slider/css/style.css" rel='stylesheet' type='text/css' />
+      <link href="lib/slider/css/owl.carousel.css" rel="stylesheet">
+       <!-- Custom Theme files -->
+      <style type="text/css">
+          html{
+
+              background-color: #f7f7f7;
+          }
+          .w-gallery{
+              margin-top: 1px;
+          }
+      </style>
+</head> 
+<body> 
+<div data-role="page" id="loading">
+    <div style="position:fixed;background:url('images/loader.gif');background-position:center center;top:0px;left:0px;width:100%;height:100%;background-repeat:no-repeat;background-size: contain">
+    </div>
+</div>
+<div data-role="page" id="Home" data-tap-toggle="false" data-url="home">
+<!-- @include-static template/home_page.html --></div>
+<div data-role="page" id="page_User" data-tap-toggle="false">
+<!-- @include-static template/page_User.html --></div>
+<div data-role="page" id="page_Notification" data-tap-toggle="false">
+<!-- @include-static template/page_Notification.html -->
+</div>
+<div data-role="page" id="page_Favorite" data-tap-toggle="false">
+<!-- @include-static template/page_Favorite.html -->
+</div>
+<div data-role="page" id="Favorite" data-tap-toggle="false">
+<!-- @include-static template/Favorite.html -->
+</div>
+<div data-role="page" id="Dynamic" data-tap-toggle="false">
+<!-- @include-static template/Dynamic.html -->
+</div>
+
+<!-- @Vipin : All scripts must be added at the end of body, before </body> -->
+      <script src="lib/js/jquery-1.11.3.min.js"></script>
+      <script src="lib/js/jquery.mobile-1.4.5.js"></script>
+      <script type="text/javascript" src="lib/js/modernizr.custom.js"></script>
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <!-- <script src="lib/slider/js/jquery.min.js"></script> @Vipin : Already referred above-->
+      
+      <script type="application/x-javascript"> 
+        addEventListener("load", function() { 
+          setTimeout(hideURLbar, 0); 
+        }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+      </script>
+      
+      <script type="text/javascript" src="lib/slider/js/move-top.js"></script>
+      <script type="text/javascript" src="lib/slider/js/easing.js"></script>
+      <script type="text/javascript" src="lib/underscore/underscore.js"></script>
+      <script src="lib/slider/js/owl.carousel.js"></script>
+      <script src="lib/js/main.js"></script>
+      <script src="lib/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<div data-role="header" data-position="fixed" data-tap-toggle="false" >
+        <h1>Name</h1>
+        <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+        <a href="#Search" data-icon="search" data-iconpos="notext" data-direction="reverse" >Search</a>
+ <div data-role="navbar">
+         <ul>
+    <li><a href="#Refine" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all">Refine</a></li>
+   <li><a href="#Sorting" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all">Sort</a></li>
+            </ul></div>
+</div><!-- /header -->
+<div data-role="footer" data-position="fixed" data-tap-toggle="false">        
+    <div data-role="navbar">
+        <ul>
+            <li><a href="#Home" data-icon="home" box-shadow="none"; data-transition="slideup"  style="background-color: #348AF5"></a></li>
+            <li><a href="#page_Favorite" data-icon="star" box-shadow="none"; 
+                    data-transition="slideup" style="background-color: #FB494E" ></a></li>
+            <li><a href="#page_Notification" data-icon="mail" box-shadow="none"; 
+                    data-transition="slidedown" style="background-color: #5CD830" ></a></li>
+            <li><a href="#page_User" data-icon="user" box-shadow="none"; 
+                    data-transition="slideup" style="background-color: #F9D42F"></a></li>
+        </ul>
+    </div><!-- /navbar -->
+</div><!-- /footer -->
+  <div data-role="popup" id="Refine" class="ui-btn ui-btn-inline ui-corner-all">
+   <div data-role="header" data-position="fixed" data-tap-toggle="false" >
+        <h1>Number_of_products</h1>
+    <a href="#" data-icon="delete" data-rel="back" data-transition="slide">Cancel</a>
+    <a href="#" data-icon="check" data-rel="back" data-transition="slide">Apply</a>
+    </div>
+    <div data-role="content"> 
+
+</div>
+
+<div data-role="footer" data-position="fixed" data-tap-toggle="false">
+    <a href="#" data-icon="refresh" data-rel="back" data-transition="slide">Clear all</a>
+    </div>
+</div>
+    <div data-role="popup" id="Sorting" class="ui-btn ui-btn-inline ui-corner-all">
+<fieldset data-role="controlgroup">
+    <legend>Choose a pet:</legend>
+        <input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1" checked="checked" />
+        <label for="radio-choice-1">My Favorites</label>
+        <input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2"  />
+        <label for="radio-choice-2">Popularity</label>
+        <input type="radio" name="radio-choice" id="radio-choice-3" value="choice-3"  />
+        <label for="radio-choice-3">Newest First</label>
+        <input type="radio" name="radio-choice" id="radio-choice-4" value="choice-4"  />
+        <label for="radio-choice-4">Discount -- Low to High</label>
+        <input type="radio" name="radio-choice" id="radio-choice-5" value="choice-5"  />
+        <label for="radio-choice-5">Discount -- High to Low</label>
+</fieldset>
+      <a href="#" data-role="button " data-rel="back" data-theme="c">Done</a>
+    </div>
+    <div data-role="panel" data-position="left" data-position-fixed="true" data-display="overlay"   id="nav-panel" style="background-color : transparent; display: block; visibility: visible; top: 40px;" >
+        <ul data-role="listview"  data-theme="b" style="background: url(images/b-2.jpg) ;">
+                <li data-icon="carat-r"><a href="#Dynamic" data-transition="turn"  style="background-color : transparent;">Recharge</a></li>
+                <li  data-icon="carat-r"><a href="#" data-transition="flow"  style="background-color : transparent;">Electronics</a></li>
+                 <li  data-icon="carat-r"><a href="#" data-transition="flow"  style="background-color : transparent;" >Travel & Stay</a></li>
+                <li  data-icon="carat-r"><a href="#" data-transition="flow"  style="background-color : transparent;">Fashion</a></li>
+                <li  data-icon="carat-r"><a href="#" data-transition="flow"  style="background-color : transparent;">Food</a></li>
+                 <li  data-icon="carat-r"><a href="#" data-transition="flow"   style="background-color : transparent;">Sports & Fitness</a></li>
+                <li  data-icon="carat-r"><a href="#" data-transition="flow"  style="background-color : transparent;" >Health & Nutrition</a></li>
+                <li  data-icon="carat-r"><a href="#" data-transition="flow"  style="background-color : transparent;">miscellaneous</a></li>
+        </ul>
+        </div>
+</div>

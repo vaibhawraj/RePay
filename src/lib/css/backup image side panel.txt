@@ -1,0 +1,13 @@
+<div data-role="panel" data-position="left" data-position-fixed="true" data-display="overlay" data-theme="a" id="nav-panel" >
+		<ul data-role="listview" style="background: url(images/recharges.png) no-repeat;">
+                <li><h1>Categories</h1></li>
+                <li data-icon="carat-r"><a href="#Dynamic" data-transition="turn" style="background: url(images/recharges.png) no-repeat;">Recharge</a></li>
+                <li  data-icon="carat-r"><a href="#" data-transition="flow" style="background: url(images/electronics.png) no-repeat;">Electronics</a></li>
+                 <li  data-icon="carat-r"><a href="#" data-transition="flow" style="background: url(images/travel.png) no-repeat;" >Travel & Stay</a></li>
+                <li  data-icon="carat-r"><a href="#" data-transition="flow" style="background: url(images/fashion.png) no-repeat;">Fashion</a></li>
+                <li  data-icon="carat-r"><a href="#" data-transition="flow"  style="background: url(images/food.png) no-repeat;">Food</a></li>
+                 <li  data-icon="carat-r"><a href="#" data-transition="flow" style="background: url(images/sports.png) no-repeat;" >Sports & Fitness</a></li>
+                <li  data-icon="carat-r"><a href="#" data-transition="flow"  style="background: url(images/health.png) no-repeat;">Health & Nutrition</a></li>
+                <li  data-icon="carat-r"><a href="#" data-transition="flow"  style="background: url(images/misc.png) no-repeat;">miscellaneous</a></li>
+        </ul>
+        </div>
