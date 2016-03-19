@@ -45,4 +45,6 @@ Project Description goes here
 
 ### Installing Github
 
-Installation Guide goes here
+There are also a few ways to install Git on Windows. The most official build is available for download on the Git website. Easy way to get Git installed is by installing GitHub for Windows. The installer includes a command line version of Git as well as the GUI. It also works well with Powershell, and sets up solid credential caching and sane CRLF settings. You can download this from the GitHub for Windows website, at [Github Windows](http://windows.github.com)
+
+
